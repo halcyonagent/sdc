@@ -1,0 +1,63 @@
+run = ["bash", "main.sh"]
+
+entrypoint = "main.sh"
+
+[[ports]]
+localPort = 1
+externalPort = 3003
+
+[[ports]]
+localPort = 80
+externalPort = 3000
+
+[[ports]]
+localPort = 8000
+externalPort = 8000
+
+[[ports]]
+localPort = 8080
+externalPort = 80
+
+[[ports]]
+localPort = 25569
+externalPort = 3001
+
+[[ports]]
+localPort = 33271
+externalPort = 8080
+
+[[ports]]
+localPort = 33687
+externalPort = 4200
+
+[[ports]]
+localPort = 33953
+externalPort = 5000
+
+[[ports]]
+localPort = 34185
+externalPort = 8081
+
+[[ports]]
+localPort = 34817
+externalPort = 8008
+
+[[ports]]
+localPort = 35291
+externalPort = 6800
+
+[[ports]]
+localPort = 36513
+externalPort = 8099
+
+[[ports]]
+localPort = 39787
+externalPort = 3002
+
+[[ports]]
+localPort = 40005
+externalPort = 6000
+
+[[ports]]
+localPort = 43203
+externalPort = 5173
